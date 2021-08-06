@@ -1,0 +1,212 @@
+
+.topOffersSection .owl-carousel .owl-nav button.owl-prev:focus,
+.owl-nav button.owl-next:focus {
+    outline: none !important;
+}
+
+.topOffersSection .owl-carousel .owl-nav button.owl-prev {
+    z-index: 2;
+    margin-left: -35px;
+}
+
+.topOffersSection .owl-carousel .owl-nav .owl-prev,
+.owl-next {
+    position: relative;
+}
+
+.topOffersSection .owl-carousel .owl-nav .owl-prev:after {
+    content: url("../img/svg/siderArrowLeft.svg");
+    position: absolute;
+    left: -20px;
+    top: -20px;
+}
+
+.topOffersSection .owl-carousel .owl-nav button.owl-next {
+    z-index: 2;
+    margin-right: -35px;
+}
+
+.topOffersSection .owl-carousel .owl-nav .owl-next:after {
+    content: url("../img/svg/siderArrowRight.svg");
+    position: absolute;
+    right: -20px;
+    top: -20px;
+}
+
+.topOffersSection .owl-carousel .owl-stage {
+    z-index: 1;
+}
+
+.topOffersSection .owl-carousel .owl-nav {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    align-items: center;
+    height: 100%;
+    z-index: -1;
+    top: 0;
+}
+
+
+
+
+
+.topOffersSectionSliderCard{
+    border-radius: 10px;
+    border: none;
+}
+.sliderImg{
+    width: 100%;
+    height: 242.8px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+.sliderTextMain{
+    padding: 26px 22px;
+    text-align: center;
+}
+.sliderTextOne{
+    font-family: "Roboto-Medium",sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: -0.0571429px;
+    color: #3A3B3F;
+    min-height: 52px;
+}
+.sliderTextTwo{
+    font-family: "Roboto-Bold",sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: -0.05px;
+    color: #3A3B3F;
+}
+
+.topOffersTitleOne{
+    font-family: "Roboto-Bold",sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #ffffff;
+}
+.topOffersTitleOne span{
+    color: #FFC107;
+}
+.topOffersTitleTwo{
+    font-family: "Roboto-Bold",sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin-top: 20px;
+    padding-bottom: 57px;
+}
+
+
+.sliderFlex{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.sliderFlexSubMain{
+    width: 90%;
+}
+
+@media (min-width: 1500px){
+
+}
+@media (max-width: 1500px) and (min-width: 1200px){
+
+}
+@media (max-width: 1200px) and (min-width: 992px){
+    .sliderFlexSubMain{
+        width: 100%;
+    }
+    .owl-next {
+        display: none!important;
+    }
+
+    .owl-prev {
+        display: none!important;
+    }
+}
+@media (max-width: 992px) and (min-width: 765px){
+    .sliderFlexSubMain{
+        width: 100%;
+    }
+    .owl-next {
+        display: none!important;
+    }
+    .owl-prev {
+        display: none!important;
+    }
+    .topOffersTitleOne {
+        font-size: 34px;
+    }
+    .topOffersTitleTwo {
+        font-size: 28px;
+        padding-bottom: 40px;
+    }
+    .sliderImg {
+        height: 300px;
+    }
+}
+@media (max-width: 765px) and (min-width: 576px){
+    .sliderFlexSubMain{
+        width: 100%;
+    }
+
+    .owl-next {
+        display: none!important;
+    }
+
+    .owl-prev {
+        display: none!important;
+    }
+    .topOffersTitleOne {
+        font-size: 25px;
+    }
+    .topOffersTitleTwo {
+        font-size: 22px;
+        padding-bottom: 40px;
+    }
+    .sliderImg {
+        height: 300px;
+    }
+}
+@media only screen and (max-width: 576px) and (min-width: 320px){
+    .sliderFlexSubMain{
+        width: 100%;
+    }
+    .owl-next {
+        display: none!important;
+    }
+
+    .owl-prev {
+        display: none!important;
+    }
+
+    .sliderImg {
+        height: 300px;
+    }
+    .topOffersTitleOne {
+        font-size: 20px;
+    }
+    .topOffersTitleTwo {
+        font-size: 18px;
+        padding-bottom: 40px;
+    }
+}

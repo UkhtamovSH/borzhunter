@@ -1,0 +1,22 @@
+.registerNowSection{
+    margin-top: 110px;
+}
+.aboutUsNumbersTitleFlex{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.aboutUsNumbersTitleFlexSub{
+    width: 57%;
+}
+.aboutUsNumbersText{
+    font-family: "Roboto-Light",sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 120.4%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-top: 30px;
+}

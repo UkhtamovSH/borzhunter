@@ -1,0 +1,265 @@
+.appHeaderSection {
+    width: 100%;
+    min-height: 622px;
+    background-image: url("../img/headerMap.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.appHeaderMenuFlex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-bottom: 2px solid #FFFFFF;
+}
+
+.appHeaderMenuSubFlexTwo .headerLink {
+    font-family: "Roboto-Regular", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    color: #FFFFFF;
+    transition: .2s;
+    text-decoration: none;
+}
+
+.headerLinkMain {
+    border-right: 1px solid #FFFFFF;
+    display: inline-block;
+}
+
+.headerLinkDropdown img {
+    width: 30px;
+    height: 20px;
+}
+
+.dropdown-toggle {
+    background: none !important;
+    border: none !important;
+    font-family: "Roboto-Regular", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: #FFFFFF;
+    padding: 0;
+    transform: translate(0px, -5px);
+}
+
+.dropdown-toggle:focus {
+    outline: none;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.dropdown-item {
+    color: #000000;
+}
+
+.dropdown-item:focus {
+    outline: none !important;
+    background-color: transparent !important;
+    border: none !important;
+    color: #000000;
+}
+
+.headerEllipseMain {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.appHeaderMenuContainer {
+    position: relative;
+    z-index: 2;
+}
+
+.appHeaderMenuFlexInfoBtnMain {
+    margin-top: 53px;
+}
+
+.appHeaderMenuFlexInfoBtn {
+    font-family: "Roboto-Bold", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #2F7FEC;
+    border: 1px solid #2F7FEC;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background: none;
+    transition: .3s;
+    padding: 15px 16px;
+    text-decoration: none !important;
+}
+
+.appHeaderMenuFlexInfoBtn:hover {
+    border: 1px solid #2F7FEC;
+    background: #2F7FEC;
+    color: #ffffff;
+}
+
+.appHeaderMenuFlexInfoBtn:focus {
+    outline: none;
+    border: 1px solid #2F7FEC;
+    background: #2F7FEC;
+    color: #ffffff;
+}
+
+.appHeaderMenuFlexInfoBtn:active {
+    box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.1);
+    color: #ffffff;
+}
+
+.appHeaderMenuFlexInfo {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 150px;
+}
+
+.appHeaderMenuFlexInfoSub {
+    width: 80%;
+}
+
+.appHeaderMenuFlexTitle {
+    font-family: "Roboto-Bold", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 65px;
+    line-height: 76px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.appHeaderMenuFlexTitle span {
+    color: #FFC107;
+}
+
+@media (min-width: 1500px) {
+    .dropdown-menu {
+        transform: translate3d(-84px, 75px, 0px) !important;
+    }
+}
+
+@media (max-width: 1500px) and (min-width: 1200px) {
+    .dropdown-menu {
+        transform: translate3d(-84px, 75px, 0px) !important;
+    }
+}
+
+@media (max-width: 1200px) and (min-width: 992px) {
+    .dropdown-menu {
+        transform: translate3d(-84px, 75px, 0px) !important;
+    }
+
+    .appHeaderMenuFlexTitle {
+        font-size: 55px;
+        line-height: 66px;
+    }
+}
+
+@media (max-width: 992px) and (min-width: 765px) {
+    .dropdown-menu {
+        transform: translate3d(-84px, 75px, 0px) !important;
+    }
+
+    .appHeaderMenuFlexTitle {
+        font-size: 35px;
+        line-height: 46px;
+    }
+}
+
+@media (max-width: 765px) and (min-width: 576px) {
+    .appHeaderMenuImg {
+        width: 200px;
+    }
+
+    .dropdown-toggle {
+        font-size: 18px;
+        transform: translate(0px, -2px);
+    }
+
+    .appHeaderMenuSubFlexTwo .headerLink {
+        font-size: 18px;
+    }
+
+    .appHeaderMenuFlexTitle {
+        font-size: 35px;
+        line-height: 46px;
+    }
+
+    .appHeaderMenuFlex {
+        padding-top: 18px;
+        padding-bottom: 18px;
+    }
+
+    .dropdown-menu {
+        transform: translate3d(-93px, 49px, 0px) !important;
+    }
+
+    .appHeaderSection {
+        min-height: 500px;
+    }
+}
+
+@media only screen and (max-width: 576px) and (min-width: 320px) {
+
+    .appHeaderMenuImg {
+        width: 100px;
+    }
+
+    .dropdown-toggle {
+        font-size: 12px;
+        transform: translate(0px, -2px);
+    }
+
+    .appHeaderMenuSubFlexTwo .headerLink {
+        font-size: 12px;
+    }
+
+    .appHeaderMenuFlexTitle {
+        font-size: 23px;
+        line-height: 30px;
+    }
+
+    .appHeaderMenuFlex {
+        padding-top: 18px;
+        padding-bottom: 18px;
+    }
+
+    .appHeaderSection {
+        min-height: 500px;
+    }
+
+    .headerLink {
+        margin-right: 3px !important;
+    }
+
+    .headerLinkDropdown {
+        margin-left: 3px !important;
+    }
+
+    .headerLinkDropdown img {
+        width: 20px;
+        height: 15px;
+        margin-right: 3px!important;
+    }
+    .dropdown-menu {
+        transform: translate3d(-118px, 38px, 0px) !important;
+    }
+    .appHeaderMenuFlexInfoSub {
+        width: 90%;
+    }
+}

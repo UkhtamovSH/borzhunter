@@ -1,0 +1,176 @@
+.askMeFlex{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    position: relative;
+    z-index: 3;
+}
+.askMeText{
+    display: inline-block;
+    margin-right: 10px;
+    padding: 12px 15px;
+    font-family: "Roboto-Medium",sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #FFFFFF;
+    background: #2F7FEC;
+    border-radius: 10px;
+}
+.askMeBtn{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    display: inline-block;
+    background: #2F7FEC;
+}
+.askMeBtn:focus{
+    outline: none;
+}
+.askMeBtn:active{
+    box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.individualOffersRow{
+    position: relative;
+    z-index: 3;
+}
+.individualOffersTitle{
+    font-family: "Roboto-Bold",sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 52px;
+    color: #FFFFFF;
+}
+.individualOffersText{
+    font-family: "Roboto-Medium",sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.individualOffersRegisterBtnMain{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.individualOffersRegisterBtn{
+    border: none;
+    background: #2F7FEC;
+    border-radius: 10px;
+    font-family: "Roboto-Bold",sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    min-width: 300px;
+}
+.individualOffersRegisterBtn:focus{
+    outline: none;
+}
+.individualOffersRegisterBtn:active{
+    box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+.individualOffersRoundMain{
+    position: absolute;
+    top: 100px;
+    right: 400px;
+    z-index: 1;
+}
+.individualOffersCompMain{
+    position: absolute;
+    top: 150px;
+    right: 0;
+    z-index: 2;
+}
+
+
+@media (min-width: 1500px){
+
+}
+@media (max-width: 1500px) and (min-width: 1200px){
+
+}
+@media (max-width: 1200px) and (min-width: 992px){
+    .individualOffersRoundMain{
+        right: 200px;
+    }
+    .individualOffersCompMain img{
+        width: 500px;
+        top: -100px;
+    }
+    .individualOffersTitle {
+        font-size: 34px;
+        line-height: 44px;
+    }
+    .individualOffersText {
+        font-size: 18px;
+    }
+}
+@media (max-width: 992px) and (min-width: 765px){
+    .individualOffersRoundMain{
+        display: none;
+    }
+    .individualOffersCompMain{
+        display: none;
+    }
+    .individualOffersTitle {
+        font-size: 34px;
+        line-height: 44px;
+    }
+    .individualOffersText {
+        font-size: 18px;
+    }
+}
+@media (max-width: 765px) and (min-width: 576px){
+    .individualOffersRoundMain{
+        display: none;
+    }
+    .individualOffersCompMain{
+        display: none;
+    }
+    .individualOffersTitle {
+        font-size: 34px;
+        line-height: 44px;
+    }
+    .individualOffersText {
+        font-size: 18px;
+    }
+    .individualOffersRegisterBtnMain{
+        margin-top: 30px;
+    }
+    .individualOffersRegisterBtn{
+        font-size: 20px;
+        min-width: 200px;
+    }
+}
+@media only screen and (max-width: 576px) and (min-width: 320px){
+    .individualOffersRoundMain{
+        display: none;
+    }
+    .individualOffersCompMain{
+        display: none;
+    }
+    .individualOffersTitle {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .individualOffersText {
+        font-size: 16px;
+    }
+    .individualOffersRegisterBtnMain{
+        margin-top: 30px;
+    }
+    .individualOffersRegisterBtn{
+        font-size: 20px;
+        min-width: 200px;
+    }
+}

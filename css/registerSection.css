@@ -1,0 +1,116 @@
+.registerText1 {
+    font-family: "Roboto-Regular",sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 40px;
+    color: #2F7FEC;
+    text-align: center;
+}
+
+.registerText2 {
+    font-family: "Roboto-Regular",sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    text-align: center;
+}
+.registerSectionFlex{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+.registerSectionFlexSub .card{
+    width: 406px;
+    padding: 55px 50px 35px 50px;
+}
+.registerSection{
+    min-height: 700px;
+}
+.registerSection label{
+    font-family: "Roboto-Regular",sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+.formGroupFlex label{
+    font-family: "Roboto-Regular",sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #96A1A5;
+}
+.registerSocialsMain{
+    background: #C8E1F8;
+    border-radius: 100px;
+    padding: 2px 4px;
+}
+.registerSocials{
+    cursor: pointer;
+    transform: translate(4px, -2px);
+}
+.formGroupFlex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.registerBtnMainTwo{
+    margin-top: 44px!important;
+    margin-bottom: 0!important;
+}
+.enterMain{
+    text-align: center;
+}
+.enter{
+    text-decoration: none!important;
+    font-family: "Roboto-Bold",sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #2F7FEC;
+    padding-top: 10px;
+}
+.goToRegister{
+    text-align: center;
+    font-family: "Roboto-Regular",sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #96A1A5;
+}
+.goToRegister a{
+    text-decoration: none!important;
+    color: #2F7FEC;
+}
+
+@media (min-width: 1500px){
+
+}
+@media (max-width: 1500px) and (min-width: 1200px){
+
+}
+@media (max-width: 1200px) and (min-width: 992px){
+
+}
+@media (max-width: 992px) and (min-width: 765px){
+
+}
+@media (max-width: 765px) and (min-width: 576px){
+
+}
+@media only screen and (max-width: 576px) and (min-width: 320px){
+    .registerSectionFlexSub .card {
+        width: 300px;
+        padding: 55px 20px 35px 20px;
+    }
+}

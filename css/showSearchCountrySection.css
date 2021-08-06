@@ -1,0 +1,116 @@
+
+.showSearchCountrySection #sync1 .item {
+
+}
+
+.showSearchCountrySection #sync2 .item {
+    text-align: center;
+    cursor: pointer;
+    color: #ffffff;
+}
+.mapDiv{
+    height: 120px;
+}
+
+.showSearchCountrySection #sync2 .current .item p {
+    color: #2F7FEC;
+}
+
+.showSearchCountrySection #sync1.owl-theme {
+    position: relative;
+}
+
+.showSearchCountrySection #sync1.owl-theme .owl-next, .owl-prev {
+    width: 22px;
+    height: 40px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 9;
+}
+
+.showSearchCountrySection #sync1.owl-theme .owl-prev {
+    left: 25px;
+    color: transparent;
+    font-size: 1px;
+}
+.showSearchCountrySection #sync1.owl-theme .owl-prev:after {
+    content: url("../img/svg/arrow-left-line.svg");
+    position: absolute;
+    left: 0;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    bottom: 0;
+}
+
+.showSearchCountrySection #sync1.owl-theme .owl-next {
+    right: 25px;
+    color: transparent;
+    font-size: 1px;
+}
+.showSearchCountrySection #sync1.owl-theme .owl-next:after {
+    content: url("../img/svg/arrow-right-line.svg");
+    position: absolute;
+    right: 0;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    bottom: 0;
+}
+
+
+.showSearchCountrySection #sync1.owl-theme .owl-prev:focus {
+    outline: none !important;
+}
+
+.showSearchCountrySection #sync1.owl-theme .owl-next:focus {
+    outline: none !important;
+}
+
+.mapImgFlex{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.mapImgFlex img{
+    width: 100%;
+    height: 480px;
+}
+.mapBackImgMain{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.showSearchCountryContainer{
+    position: relative;
+    z-index: 3;
+}
+
+@media (min-width: 1500px){
+
+}
+@media (max-width: 1500px) and (min-width: 1200px){
+
+}
+@media (max-width: 1200px) and (min-width: 992px){
+
+}
+@media (max-width: 992px) and (min-width: 765px){
+
+}
+@media (max-width: 765px) and (min-width: 576px){
+
+}
+@media only screen and (max-width: 576px) and (min-width: 320px){
+    .mapImgFlex img{
+        width: 100%;
+        height: 300px;
+    }
+    .mapDiv{
+        height: 130px;
+    }
+    .mapDiv img{
+        height: 130px;
+    }
+}

@@ -1,0 +1,91 @@
+.aboutUsInNumbersSection {
+    margin-bottom: 80px;
+}
+
+.aboutUsNumbersCol {
+    text-align: center;
+}
+
+.aboutUsNumbersText {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 35px;
+}
+
+.aboutUsNumbersImg {
+    width: 130px;
+    height: 130px;
+}
+
+.aboutUsNumbersTitle {
+    font-family: "Roboto-Bold", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #ffffff;
+}
+
+.aboutUsNumbersTitle span {
+    color: #FFC107;
+}
+
+.aboutUsNumbersRow {
+    margin-top: 77px;
+}
+
+.aboutUsNumbersCol {
+    margin-bottom: 40px;
+}
+
+@media (min-width: 1500px) {
+
+}
+
+@media (max-width: 1500px) and (min-width: 1200px) {
+
+}
+
+@media (max-width: 1200px) and (min-width: 992px) {
+
+}
+
+@media (max-width: 992px) and (min-width: 765px) {
+    .aboutUsNumbersTitle {
+        font-size: 34px;
+    }
+}
+
+@media (max-width: 765px) and (min-width: 576px) {
+    .aboutUsNumbersTitle {
+        font-size: 25px;
+    }
+
+    .aboutUsNumbersRow {
+        margin-top: 50px;
+    }
+
+    .aboutUsInNumbersSection {
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 576px) and (min-width: 320px) {
+    .aboutUsNumbersTitle {
+        font-size: 20px;
+    }
+
+    .aboutUsNumbersRow {
+        margin-top: 30px;
+    }
+
+    .aboutUsInNumbersSection {
+        margin-bottom: 30px;
+    }
+}
